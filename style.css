@@ -61,6 +61,9 @@ input{
     border: 1px solid  rgb(47, 28, 73);
     border-radius: 8px;
 }
+button:active{
+    box-shadow: 2px 2px 5px rgba(6, 243, 243, 0.733);
+}
 button{
     margin-top: 0px;
     margin-bottom: 30px;
@@ -71,6 +74,7 @@ button{
     font-weight: bold;
     font-size: 25px;
     border: 2px solid rgba(6, 243, 243, 0.733);
+    cursor: pointer;
 }
 p {
     margin-top: 0px;
@@ -78,4 +82,8 @@ p {
 .login{
     text-decoration: none;
     color: rgba(6, 243, 243, 0.733);
+}
+button:hover {
+    background-color: rgba(6, 243, 243, 0.733);
+    color: white;
 }
